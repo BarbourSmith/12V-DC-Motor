@@ -146,6 +146,21 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1104,
+                    "y": 134,
+                    "uniqueID": 754036,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "DC Gear Motor",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "https://uamper.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -198,8 +213,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 293347,
+                    "ap2ID": 754036
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 293347
+                    "ap1ID": 754036
                 }
             ],
             "fileTypeVersion": 1

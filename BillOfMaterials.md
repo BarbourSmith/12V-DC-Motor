@@ -2,4 +2,4 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|DC Gear Motor|1|0|https://uamper.com|
+|DC Gear Motor|1|null|https://uamper.com|

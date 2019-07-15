@@ -155,7 +155,7 @@
                     "BOMitem": {
                         "BOMitemName": "DC Gear Motor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
+                        "costUSD": null,
                         "source": "https://uamper.com",
                         "totalNeeded": 0
                     }

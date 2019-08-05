@@ -17,21 +17,21 @@
                     "uniqueID": 673252,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 20
+                            "name": "diameter",
+                            "ioValue": 50
                         }
                     ]
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 59,
-                    "y": 103,
+                    "x": 64,
+                    "y": 111,
                     "uniqueID": 179970,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 3
+                            "name": "diameter",
+                            "ioValue": 6
                         }
                     ]
                 },

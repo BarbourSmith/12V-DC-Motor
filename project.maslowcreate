@@ -10,36 +10,10 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 51,
-                    "y": 30,
-                    "uniqueID": 673252,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 50
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 64,
-                    "y": 111,
-                    "uniqueID": 179970,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 6
-                        }
-                    ]
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 178,
-                    "y": 39,
+                    "x": 0.2049780380673499,
+                    "y": 0.29118773946360155,
                     "uniqueID": 856365,
                     "ioValues": [
                         {
@@ -49,23 +23,10 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 182,
-                    "y": 101,
-                    "uniqueID": 425809,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 311,
-                    "y": 45,
+                    "x": 0.3279648609077599,
+                    "y": 0.1839080459770115,
                     "uniqueID": 189960,
                     "ioValues": [
                         {
@@ -83,10 +44,36 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.08857979502196194,
+                    "y": 0.4674329501915709,
+                    "uniqueID": 673252,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 50
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.2657393850658858,
+                    "y": 0.5517241379310345,
+                    "uniqueID": 425809,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 332,
-                    "y": 127,
+                    "x": 0.40336749633967794,
+                    "y": 0.4904214559386973,
                     "uniqueID": 183375,
                     "ioValues": [
                         {
@@ -104,10 +91,40 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6002928257686677,
+                    "y": 0.21839080459770116,
+                    "uniqueID": 293347,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 846159",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 441955",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.1376281112737921,
+                    "y": 0.632183908045977,
+                    "uniqueID": 179970,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 6
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 589,
-                    "y": 138,
+                    "x": 0.5285505124450952,
+                    "y": 0.6283524904214559,
                     "uniqueID": 159005,
                     "ioValues": [
                         {
@@ -125,46 +142,25 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 839,
-                    "y": 66,
-                    "uniqueID": 293347,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 846159",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 441955",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 940198",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1104,
-                    "y": 134,
+                    "x": 0.7269399707174231,
+                    "y": 0.4444444444444444,
                     "uniqueID": 754036,
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "DC Gear Motor",
                         "numberNeeded": 1,
-                        "costUSD": null,
-                        "source": "https://uamper.com",
+                        "costUSD": 15.99,
+                        "source": "https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS",
                         "totalNeeded": 0
                     }
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 0.9802342606149341,
+                    "y": 0.5134099616858238,
                     "ioValues": []
                 }
             ],
@@ -172,54 +168,63 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 673252,
-                    "ap2ID": 856365
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 179970,
-                    "ap2ID": 425809
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 856365,
                     "ap2ID": 189960
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 425809,
-                    "ap2ID": 183375
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 846159",
+                    "ap2Primary": false,
                     "ap1ID": 189960,
                     "ap2ID": 293347
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 673252,
+                    "ap2ID": 856365
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 425809,
+                    "ap2ID": 183375
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 183375,
                     "ap2ID": 159005
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 441955",
-                    "ap1ID": 159005,
-                    "ap2ID": 293347
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 293347,
                     "ap2ID": 754036
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 179970,
+                    "ap2ID": 425809
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 441955",
+                    "ap2Primary": false,
+                    "ap1ID": 159005,
+                    "ap2ID": 293347
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 754036
                 }
             ],

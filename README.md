@@ -4,9 +4,3 @@
 
 ![](/project.svg)
 
-## 12V DC Motor
-
-
-undefined
-
-

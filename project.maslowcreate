@@ -305,9 +305,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.2862371888726208,
-            "y": 0.6973180076628352,
+            "name": "Shaft and Bump",
+            "x": 0.5219619326500733,
+            "y": 0.7547892720306513,
             "uniqueID": 318782,
             "ioValues": [],
             "topLevel": false,
@@ -390,27 +390,6 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.5497803806734992,
-                    "y": 0.3754789272030651,
-                    "uniqueID": 903385,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 7
-                        }
-                    ]
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.14421669106881405,
@@ -448,10 +427,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 641853,
-                    "ap2ID": 903385
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 641853
                 },
                 {
                     "ap1Name": "geometry",
@@ -466,12 +444,6 @@
                     "ap2Primary": false,
                     "ap1ID": 999422,
                     "ap2ID": 565707
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 903385
                 },
                 {
                     "ap1Name": "geometry",
@@ -556,35 +528,56 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5087847730600293,
+                    "y": 0.4099616858237548,
+                    "uniqueID": 899698,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -7
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6002928257686677,
-                    "y": 0.21839080459770116,
+                    "x": 0.7013177159590044,
+                    "y": 0.4789272030651341,
                     "uniqueID": 293347,
                     "ioValues": [
                         {
-                            "name": "3D shape 846159",
+                            "name": "3D shape 940198",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 940198",
+                            "name": "3D shape 940199",
                             "ioValue": 10
                         }
                     ]
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 0.2862371888726208,
-                    "y": 0.6973180076628352,
+                    "name": "Shaft and Bump",
+                    "x": 0.5219619326500733,
+                    "y": 0.7547892720306513,
                     "uniqueID": 318782,
                     "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 0.7298682284040996,
-                    "y": 0.4137931034482759,
+                    "x": 0.8330893118594436,
+                    "y": 0.5134099616858238,
                     "uniqueID": 754036,
                     "ioValues": [],
                     "BOMitem": {
@@ -634,9 +627,16 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 846159",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 189960,
+                    "ap2ID": 899698
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 940199",
+                    "ap2Primary": false,
+                    "ap1ID": 899698,
                     "ap2ID": 293347
                 },
                 {

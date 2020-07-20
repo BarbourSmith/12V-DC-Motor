@@ -1,5 +1,38 @@
 {
-    "molecules": [
+    "atomType": "Molecule",
+    "name": "12V DC Motor",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 957372,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.05710102489019033,
+            "y": 0.18007662835249041,
+            "uniqueID": 673252,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 37
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.20790629575402636,
+            "y": 0.17624521072796936,
+            "uniqueID": 856365,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 60
+                }
+            ]
+        },
         {
             "atomType": "Molecule",
             "name": "Bolt Holes",
@@ -304,6 +337,73 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.3550512445095168,
+            "y": 0.3448275862068966,
+            "uniqueID": 809142,
+            "ioValues": []
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.4685212298682284,
+            "y": 0.18007662835249041,
+            "uniqueID": 189960,
+            "ioValues": [
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 90
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.5087847730600293,
+            "y": 0.4099616858237548,
+            "uniqueID": 899698,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -7
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7013177159590044,
+            "y": 0.4789272030651341,
+            "uniqueID": 293347,
+            "ioValues": [
+                {
+                    "name": "3D shape 940198",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 940199",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Shaft and Bump",
             "x": 0.5219619326500733,
@@ -456,212 +556,93 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Molecule",
-            "name": "12V DC Motor",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 957372,
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.8330893118594436,
+            "y": 0.5134099616858238,
+            "uniqueID": 754036,
             "ioValues": [],
-            "topLevel": true,
-            "allAtoms": [
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.05710102489019033,
-                    "y": 0.18007662835249041,
-                    "uniqueID": 673252,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 37
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.20790629575402636,
-                    "y": 0.17624521072796936,
-                    "uniqueID": 856365,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 60
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Bolt Holes",
-                    "x": 0.17349926793557832,
-                    "y": 0.4176245210727969,
-                    "uniqueID": 493027,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.3550512445095168,
-                    "y": 0.3448275862068966,
-                    "uniqueID": 809142,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.4685212298682284,
-                    "y": 0.18007662835249041,
-                    "uniqueID": 189960,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 90
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.5087847730600293,
-                    "y": 0.4099616858237548,
-                    "uniqueID": 899698,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": -7
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.7013177159590044,
-                    "y": 0.4789272030651341,
-                    "uniqueID": 293347,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 940198",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 940199",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Shaft and Bump",
-                    "x": 0.5219619326500733,
-                    "y": 0.7547892720306513,
-                    "uniqueID": 318782,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 0.8330893118594436,
-                    "y": 0.5134099616858238,
-                    "uniqueID": 754036,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "DC Gear Motor",
-                        "numberNeeded": 1,
-                        "costUSD": 16.99,
-                        "source": "https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9802342606149341,
-                    "y": 0.5134099616858238,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 673252,
-                    "ap2ID": 856365
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 856365,
-                    "ap2ID": 809142
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 493027,
-                    "ap2ID": 809142
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 809142,
-                    "ap2ID": 189960
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 189960,
-                    "ap2ID": 899698
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 940199",
-                    "ap2Primary": false,
-                    "ap1ID": 899698,
-                    "ap2ID": 293347
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 293347,
-                    "ap2ID": 754036
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 940198",
-                    "ap2Primary": false,
-                    "ap1ID": 318782,
-                    "ap2ID": 293347
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 754036
-                }
-            ],
-            "fileTypeVersion": 1
+            "BOMitem": {
+                "BOMitemName": "DC Gear Motor",
+                "numberNeeded": 1,
+                "costUSD": 16.99,
+                "source": "https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS",
+                "totalNeeded": 0
+            }
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9802342606149341,
+            "y": 0.5134099616858238,
+            "ioValues": []
         }
     ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 673252,
+            "ap2ID": 856365
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 856365,
+            "ap2ID": 809142
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 493027,
+            "ap2ID": 809142
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 809142,
+            "ap2ID": 189960
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 189960,
+            "ap2ID": 899698
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 940199",
+            "ap2Primary": false,
+            "ap1ID": 899698,
+            "ap2ID": 293347
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 293347,
+            "ap2ID": 754036
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 940198",
+            "ap2Primary": false,
+            "ap1ID": 318782,
+            "ap2ID": 293347
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 754036
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
     "circleSegmentSize": 1
 }

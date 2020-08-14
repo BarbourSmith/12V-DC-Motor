@@ -556,21 +556,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.8330893118594436,
-            "y": 0.5134099616858238,
-            "uniqueID": 754036,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "DC Gear Motor",
-                "numberNeeded": 1,
-                "costUSD": 16.99,
-                "source": "https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS",
-                "totalNeeded": 0
-            }
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9802342606149341,
@@ -623,10 +608,9 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 293347,
-            "ap2ID": 754036
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 293347
         },
         {
             "ap1Name": "Geometry",
@@ -634,12 +618,6 @@
             "ap2Primary": false,
             "ap1ID": 318782,
             "ap2ID": 293347
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 754036
         }
     ],
     "fileTypeVersion": 1,

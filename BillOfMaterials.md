@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|DC Gear Motor|1|$16.99|https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS|
-|Total: |1|$16.99| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $50.97
+ 3xCOG MSRP: $0.00

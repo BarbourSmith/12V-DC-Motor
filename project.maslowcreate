@@ -460,11 +460,11 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.3484626647144949,
-                    "y": 0.5134099616858238,
-                    "uniqueID": 565707,
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 0.3462664714494876,
+                    "y": 0.46183206106870234,
+                    "uniqueID": 566301,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
@@ -523,7 +523,7 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 506472,
-                    "ap2ID": 565707
+                    "ap2ID": 566301
                 },
                 {
                     "ap1Name": "geometry",
@@ -535,7 +535,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 565707,
+                    "ap1ID": 566301,
                     "ap2ID": 641853
                 },
                 {
@@ -543,7 +543,7 @@
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 999422,
-                    "ap2ID": 565707
+                    "ap2ID": 566301
                 },
                 {
                     "ap1Name": "geometry",

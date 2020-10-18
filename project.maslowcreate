@@ -556,6 +556,15 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.7591508052708639,
+            "y": 0.7164750957854406,
+            "uniqueID": 878132,
+            "ioValues": [],
+            "selectedColorIndex": "10"
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9802342606149341,
@@ -608,9 +617,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 324120
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 324120,
+            "ap2ID": 878132
         },
         {
             "ap1Name": "Geometry",
@@ -618,6 +628,12 @@
             "ap2Primary": false,
             "ap1ID": 318782,
             "ap2ID": 324120
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 878132
         }
     ],
     "fileTypeVersion": 1,

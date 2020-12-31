@@ -28,6 +28,10 @@
             "uniqueID": 856365,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/957372/673252Circle"
+                },
+                {
                     "name": "height",
                     "ioValue": 60
                 }
@@ -50,6 +54,10 @@
                     "uniqueID": 711367,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/493027/909498Circle"
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 15.5
                         },
@@ -70,6 +78,10 @@
                     "y": 0.37022900763358774,
                     "uniqueID": 754041,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/493027/711367Translate"
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -104,6 +116,10 @@
                     "y": 0.4904214559386973,
                     "uniqueID": 499586,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/493027/754041Rotate"
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -159,6 +175,10 @@
                     "uniqueID": 688042,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/493027/499586Rotate"
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -179,6 +199,10 @@
                     "y": 0.7471264367816093,
                     "uniqueID": 320598,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/493027/688042Rotate"
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -201,6 +225,10 @@
                     "uniqueID": 837016,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/493027/690513Union"
+                        },
+                        {
                             "name": "height",
                             "ioValue": 8
                         }
@@ -213,6 +241,10 @@
                     "y": 0.8007662835249042,
                     "uniqueID": 257919,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/493027/320598Rotate"
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -232,7 +264,13 @@
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
-                    "ioValues": []
+                    "uniqueID": 475767,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/957372/493027/837016Extrude"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -324,7 +362,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 837016
+                    "ap1ID": 837016,
+                    "ap2ID": 475767
                 },
                 {
                     "ap1Name": "geometry",
@@ -342,7 +381,16 @@
             "x": 0.3557833089311859,
             "y": 0.3409961685823755,
             "uniqueID": 809142,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "atoms/957372/493027/837016Extrude"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "atoms/957372/856365Extrude"
+                }
+            ]
         },
         {
             "atomType": "Rotate",
@@ -351,6 +399,10 @@
             "y": 0.18007662835249041,
             "uniqueID": 189960,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/957372/809142Difference"
+                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 90
@@ -372,6 +424,10 @@
             "y": 0.4099616858237548,
             "uniqueID": 899698,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/957372/189960Rotate"
+                },
                 {
                     "name": "xDist",
                     "ioValue": 0
@@ -433,6 +489,10 @@
                     "uniqueID": 506472,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/318782/666525Circle"
+                        },
+                        {
                             "name": "height",
                             "ioValue": 20
                         }
@@ -445,6 +505,10 @@
                     "y": 0.26053639846743293,
                     "uniqueID": 641853,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/318782/566301Union"
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": -90
@@ -484,6 +548,10 @@
                     "uniqueID": 999422,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/957372/318782/111154Circle"
+                        },
+                        {
                             "name": "height",
                             "ioValue": 6
                         }
@@ -507,7 +575,13 @@
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
-                    "ioValues": []
+                    "uniqueID": 761818,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/957372/318782/641853Rotate"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -529,7 +603,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 641853
+                    "ap1ID": 641853,
+                    "ap2ID": 761818
                 },
                 {
                     "ap1Name": "geometry",
@@ -561,7 +636,12 @@
             "x": 0.7591508052708639,
             "y": 0.7164750957854406,
             "uniqueID": 878132,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/957372/324120Union"
+                }
+            ],
             "selectedColorIndex": "10"
         },
         {
@@ -569,7 +649,13 @@
             "name": "Output",
             "x": 0.9802342606149341,
             "y": 0.5134099616858238,
-            "ioValues": []
+            "uniqueID": 673821,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/957372/878132Color"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -633,7 +719,8 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 878132
+            "ap1ID": 878132,
+            "ap2ID": 673821
         }
     ],
     "fileTypeVersion": 1,
